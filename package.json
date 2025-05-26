@@ -1,0 +1,27 @@
+{
+  "name": "code_loom",
+  "version": "1.0.0",
+  "description": "This is a real time collabrative code editor.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "Socket.io"
+  ],
+  "author": "Satyam Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
